@@ -1,11 +1,35 @@
 # pulsar_repo
 Easy way to install pulsar software repositories. 
+Easy way to install FRB software repositories...
+The below categorization is only to make installation possible with minimum dependent softwares and not to categorize the pipelines as Pulsars or FRBs.
 
+Index
+1. Prerequisites
+2. Installing basic dependencies
+3. Setting up environment variables
 
-wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-ubuntu1804.pin
-sudo mv cuda-ubuntu1804.pin /etc/apt/preferences.d/cuda-repository-pin-600
-wget https://developer.download.nvidia.com/compute/cuda/12.1.0/local_installers/cuda-repo-ubuntu1804-12-1-local_12.1.0-530.30.02-1_amd64.deb
-sudo dpkg -i cuda-repo-ubuntu1804-12-1-local_12.1.0-530.30.02-1_amd64.deb
-sudo cp /var/cuda-repo-ubuntu1804-12-1-local/cuda-*-keyring.gpg /usr/share/keyrings/
-sudo apt-get update
-sudo apt-get -y install cuda
+#PART A: Pulsar repositories
+4. PRESTO (Scott Ransom) installation
+    a. FFTW3 installation (in shared library mode)
+    b. CFITSIO installation
+    c. PSRCAT installation
+    d. PGPLOT installation
+    e. TEMPO installation
+    f. libglib
+    g. PRESTO installation with python support
+5. PSRCHIVE installation
+    a. TEMPO2 installation
+    b. PSRCHIVE installation with shared libraries and python interface (downgrading of SWIG may be required)
+6. DSPSR installation
+
+#PART B: FRB repositories
+1. CUDA installation
+2. DEDISP installation
+3. PSRDADA installation
+4. HEIMDALL installation
+    a. Gnuplot (old version for trans_gen_overview.py) installation . (Python 2 is required)
+    b. HEIMDALL installation with python scripts
+5. SPANDAK (Vishal Gajjar) installation: (All the above softwares built on Python 2 is required)
+    a. sigproc (Mike Keith) installation
+    b. sigpyproc (Ewin Barr) installation
+    c. SPANDAK installation and few modifications
