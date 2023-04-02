@@ -2,7 +2,7 @@
 
 cd $ASTROSOFT/tempo2
 ./bootstrap
-./configure F77=gfortran --prefix=$ASTROSOFT --with-cfitsio-dir=$ASTROSOFT --with-fftw3-dir=$ASTROSOFT CFLAGS=-fPIC FFLAGS=-fPIC CXXFLAGS="-I$ASTROSOFT/include -I$PGPLOT_DIR" LDFLAGS=-L$PGPLOT DIR
+./configure F77=gfortran --prefix=$ASTROSOFT --with-cfitsio-dir=$ASTROSOFT --with-fftw3-dir=$ASTROSOFT CFLAGS=-fPIC FFLAGS=-fPIC CXXFLAGS="-I$ASTROSOFT/include -I$PGPLOT_DIR" LDFLAGS=-L$PGPLOT_DIR
 make
 make install
 make plugins
