@@ -8,6 +8,7 @@ make install
 make plugins
 make plugins−install
 make unsupported
+make unsupported-install
 make clean
 
 
