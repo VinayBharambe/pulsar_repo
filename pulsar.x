@@ -11,6 +11,7 @@ cd cfitsio-4.2.0
 ./configure --prefix=$ASTROSOFT CFLAGS=-fPIC FFLAGS=-fPIC
 make shared
 make install
+make clean
 
 cd $ASTROSOFT/psrcat_tar
 source makeit
