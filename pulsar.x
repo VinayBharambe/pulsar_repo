@@ -1,5 +1,6 @@
 #!/usr/bin/bash
 
+
 cd $ASTROSOFT/fftw-3.3.10
 ./configure --prefix=$ASTROSOFT --enable-float --enable-threads --enable-shared CFLAGS=-fPIC FFLAGS=-fPIC
 make check
@@ -10,7 +11,6 @@ cd cfitsio-4.2.0
 ./configure --prefix=$ASTROSOFT CFLAGS=-fPIC FFLAGS=-fPIC
 make shared
 make install
-make clean
 
 cd $ASTROSOFT/psrcat_tar
 source makeit
