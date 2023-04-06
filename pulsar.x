@@ -1,5 +1,3 @@
-#!/usr/bin/bash
-
 
 cd $ASTROSOFT/fftw-3.3.10
 ./configure --prefix=$ASTROSOFT --enable-float --enable-threads --enable-shared CFLAGS=-fPIC FFLAGS=-fPIC
