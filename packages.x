@@ -1,4 +1,3 @@
-#!/usr/bin/bash
 
 mkdir -p /home/$USER/pulsar_repo
 cd /home/$USER/pulsar_repo
