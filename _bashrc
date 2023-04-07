@@ -35,7 +35,7 @@ export PKG_CONFIG_PATH=$ASTROSOFT/cfitsio-4.2.0
 
 export LD_RUN_PATH=$ASTROSOFT/lib
 
-export PYTHONPATH=$PYTHONPATH:$PRESTO/lib/python:$ASTROSOFT/lib/python2.7/site-packages
+export PYTHONPATH=$PYTHONPATH:$PRESTO/lib/python:$ASTROSOFT/lib/python2.7/site-packages:$PRESTO/python/presto:$ASTROSOFT/PulsarSearch/robert_sp
 
 export DOWN=/home/$USER/Downloads
 
