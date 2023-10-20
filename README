@@ -33,3 +33,16 @@ Index
     a. sigproc (Mike Keith) installation
     b. sigpyproc (Ewin Barr) installation
     c. SPANDAK installation and few modifications
+
+
+Files Descriprion:
+1. Start with Copyuing _bashrc to your $HOME/.bashrc
+2. Clone the packages from packages.x
+3. Use install files to install dependencies
+    install.x : For Python 2 based systems (Ubuntu 19.04 and below)
+    install2.x : For Python 3 based systems (Ubuntu 20.04 and above)
+    install3.x : For Python2 installation on Python 3 Based systems (Ubuntu 22.04 and above)
+4. Start with installation of Gnuplot-py and Sigpyproc. (Hint in pulsar4.x)
+    --> Install packages from pulsar.x (CFITSIO, FFTW, TEMPO and PRESTO)
+    --> Install packages from pulsar2.x (TEMPO2, PSRCHIVE, DSPSR)
+    --> Install packages from pulsar3.x (Dedisp, PSRDADA, Heimdall)
